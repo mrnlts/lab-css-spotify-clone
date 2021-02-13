@@ -1,3 +1,22 @@
+main {
+    background: url(/images/landing.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+section > hr {
+    color: #00B172;
+}
+
+footer {
+    background-color: #00B172;
+    color: white;
+}
+
+/* footer hr {
+    color: white;
+} */
+
 /*
 Colors:
 
