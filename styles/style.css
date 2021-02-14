@@ -3,6 +3,7 @@
 body {
     font-family: 'Helvetica', sans-serif;
     color: #1A1A1A;
+    /* margin-top: 120px; */
 }
 
 .nav-bar {
@@ -36,6 +37,16 @@ body {
     margin-right: 30px;
     font-size: 2rem;
 }
+
+.main {
+    padding: 600px 0 700px;
+    text-align: center;
+    background: url(../images/landing.jpg);
+    background-size: cover;
+    color: white;
+    /* margin-top: 120px;     */
+}
+
 /* 
 .main {
     background: url(../images/landing.jpg);
@@ -50,8 +61,15 @@ body {
 } */
 
 .main > h1 {
-    font-size: 3rem;
-    color: white;
+    font-size: 6rem;
+    font-weight: bold;
+    margin-bottom: 4rem;
+}
+
+.main > p {
+    font-size: 2.3rem;
+    font-weight: 100;
+    line-height: 1.5em;
 }
 
 .title hr {
