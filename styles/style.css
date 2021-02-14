@@ -19,6 +19,7 @@ body {
     margin: 20px 0 0 40px;
     height: 80px;
     padding-right: 50%;
+    background-color: white;
 }
 
 .nav-bar ul {
@@ -44,21 +45,7 @@ body {
     background: url(../images/landing.jpg);
     background-size: cover;
     color: white;
-    /* margin-top: 120px;     */
-}
-
-/* 
-.main {
-    background: url(../images/landing.jpg);
-    background-size: cover;
-    width: auto;
-    height: 1500px;
-    background-repeat: no-repeat;
-    display: flex;
-    flex-direction: column;
-    justify-items: center;
-    align-items: center;
-} */
+}   
 
 .main > h1 {
     font-size: 6rem;
@@ -72,8 +59,58 @@ body {
     line-height: 1.5em;
 }
 
+.title {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.title h2 {
+    font-size: 2.7rem;
+    text-align: center;
+    padding: 40px 20px 10px;
+    font-weight: bold;
+}
+
 .title hr {
+    border: 3px solid #00B172;
     color: #00B172;
+    width: 20%;
+}
+
+.info-bits {
+    display: flex;
+    justify-content: space-around;
+    padding: 40px 20px;
+}
+
+.info-bits div {
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+    width: 30%;
+    text-align: center;
+}
+
+.info-bits h3 {
+    color: #00B172;
+    font-weight: bold;
+    font-size: 2.3rem;
+    padding: 0 0 30px;
+}
+
+.info-bits p {
+    font-size: 2rem;
+    color: black;
+    opacity: 0.7;    
+    line-height: 1.2em;
+}
+
+.info-bits > div > img {
+    height: 35%;
+    width: 30%;
+    padding: 0 0 30px;
 }
 
 .footer {
@@ -81,13 +118,8 @@ body {
     color: white;
 }
 
-/* footer hr {
-    color: white;
-} */
-
 /*
 Text: 1A1A1A
 Green: #00B172
 White: #FFF
-
 */
